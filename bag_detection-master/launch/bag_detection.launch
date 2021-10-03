@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find bag_detection)/launch/bag_flip_detection.launch" />
+  <include file="$(find bag_detection)/launch/bag_path_detection.launch" />
+</launch>
